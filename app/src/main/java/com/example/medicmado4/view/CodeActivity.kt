@@ -195,7 +195,7 @@ class CodeActivity : ComponentActivity() {
                         fontSize = 15.sp,
                         color = descriptionColor,
                         textAlign = TextAlign.Center,
-                        modifier = Modifier.widthIn(240.dp)
+                        modifier = Modifier.widthIn(max = 240.dp)
                     )
                 }
             }
