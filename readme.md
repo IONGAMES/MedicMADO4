@@ -1,1 +1,1 @@
-Эмулятор - Pizel C API 33
+Эмулятор - Pixel C API 33
