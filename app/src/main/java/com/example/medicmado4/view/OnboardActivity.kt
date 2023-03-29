@@ -115,7 +115,7 @@ class OnboardActivity : ComponentActivity() {
                     contentDescription = ""
                 )
             }
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(15.dp))
             HorizontalPager(
                 count = 3,
                 state = pagerState,
@@ -144,7 +144,7 @@ class OnboardActivity : ComponentActivity() {
                     }
                 }
             }
-            Spacer(modifier = Modifier.height(30.dp))
+            Spacer(modifier = Modifier.height(10.dp))
             Row(
                 horizontalArrangement = Arrangement.Center,
                 modifier = Modifier.fillMaxWidth()
@@ -159,13 +159,13 @@ class OnboardActivity : ComponentActivity() {
                     )
                 }
             }
-            Spacer(modifier = Modifier.height(60.dp))
+            Spacer(modifier = Modifier.height(50.dp))
             Image(
                 painter = imageArray[pagerState.currentPage],
                 contentDescription = "",
                 contentScale = ContentScale.FillHeight,
                 modifier = Modifier
-                    .height(270.dp)
+                    .height(350.dp)
                     .fillMaxSize()
                     .padding(bottom = 60.dp)
             )
